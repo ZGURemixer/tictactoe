@@ -12,7 +12,8 @@
 
 #define separator "--------------------------------\n"
 
-#define profileurl "https:/" "/github.com/ZGURemixer/tictactoe\n"
+#define profileurl \
+    "https:/" "/github.com/ZGURemixer/tictactoe\n"
 
 #define BOT 1
 #define HUMAN 0
