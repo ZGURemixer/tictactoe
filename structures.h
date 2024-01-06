@@ -4,6 +4,7 @@
 
 #define SIZE 3
 #define GRID_SIZE 9
+#define PLAYER_AMOUNT 2
 
 #define err0 "ERROR: Non-ternary matrix was used.\n"
 #define err1 "ERROR: Invalid player ID.\n"
@@ -11,8 +12,14 @@
 #define err3 "ERROR: Invalid value.\n"
 #define err4 "ERROR: Value can't be overwritten.\n"
 
+#define profileurl "https:/" "/github.com/ZGURemixer/tictactoe\n"
+
 #define BOT 1
 #define HUMAN 0
+
+#define INVALID -420
+
+typedef unsigned int nat;
 
 typedef struct p {
     int isBot;
