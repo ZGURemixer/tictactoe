@@ -263,10 +263,10 @@ void match(PLAYER players[PLAYER_AMOUNT], int matrix[SIZE][SIZE]){
     
     switch(status){
     	case 0:
-    		printf("BOTH PLAYERS HAVE TIED\n");
+    		printf("Both PLAYERS have tied!\n");
     		break;
     	default:
-    		printf("PLAYER %d WINS\n", status);
+    		printf("PLAYER %d wins!\n", status);
     		break;
 	}	
 }

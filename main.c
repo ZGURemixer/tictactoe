@@ -39,8 +39,8 @@ int main() {
     			break;
     		case 2: // About
     			printf("This is a small project I made in C during the summer of 2024 to practice my coding skills.\n");
-    			printf("To play the game, each player takes turns to fill a %dx%d grid with their symbol.\n", SIZE, SIZE);
-    			printf("The first player to get %d in a row wins the game.\n", SIZE);
+    			printf("To play the game, each PLAYER takes turns to fill a %dx%d grid with their symbol.\n", SIZE, SIZE);
+    			printf("The first PLAYER to get %d in a row wins the game.\n", SIZE);
     			printf(profileurl);
     			break;
     		case 3: // Exit
