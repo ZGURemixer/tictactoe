@@ -6,11 +6,11 @@
 #define GRID_SIZE 9
 #define PLAYER_AMOUNT 2
 
-#define err0 "ERROR: Non-ternary matrix was used.\n"
-#define err1 "ERROR: Invalid player ID.\n"
 #define err2 "ERROR: Invalid player status.\n"
 #define err3 "ERROR: Invalid value.\n"
 #define err4 "ERROR: Value can't be overwritten.\n"
+
+#define separator "--------------------------------\n"
 
 #define profileurl "https:/" "/github.com/ZGURemixer/tictactoe\n"
 

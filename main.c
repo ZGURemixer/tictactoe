@@ -33,6 +33,7 @@ int main() {
     
     do{
     	option=mainMenu();
+    	printf(separator);
     	switch(option){
     		case 1: // Start match
 				match(players, matrix);
@@ -46,6 +47,9 @@ int main() {
     		case 3: // Exit
     			exit=1;
     			break;
+		}
+		if(option!=3){
+			printf(separator);
 		}
 	}while(exit==0);
     return 0;

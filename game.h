@@ -246,6 +246,7 @@ void match(PLAYER players[PLAYER_AMOUNT], int matrix[SIZE][SIZE]){
     	players[i].isBot = changePlayerStatus(i+1);
 	}
     
+    printf(separator);
     
     printGameMatrix(array);
 	do{	
